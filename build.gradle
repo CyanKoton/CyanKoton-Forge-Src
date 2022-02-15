@@ -13,6 +13,8 @@ buildscript {
 			url "https://maven.aliyun.com/repository/public/"
 		}
 		
+		maven { url = "https://cyankoton.github.io/maven" }
+		
 		// 那是做叫 中央存储库， 绝大多数具备 Gradle项目 都离不开 mavenCentral（中央存储库）
         mavenCentral()
 	
