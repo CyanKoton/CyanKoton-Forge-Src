@@ -27,13 +27,13 @@ Longan-Forge-Gradle建议使用JDK1.8来进行部署和开发
 **2. 如果已经为了测试而使用默认配置启动来部署，建议删掉用户名/.gradle文件夹，重新执行以下部署流程**
 
 ```shell
-gradle build #等待出现 Build Succeed的字样出现
+gradlew build #等待出现 Build Succeed的字样出现
 ```
 
 根据网速情况，大约五到十分钟即可安装完毕，全程无需人工干预。
 
 ```shell
-gradle runClient # 运行MineCraft Client
+gradlew runClient # 运行MineCraft Client
 ```
 
 ## 三、更新
