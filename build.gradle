@@ -64,31 +64,35 @@ apply plugin: 'forge'
 
 //设置镜像站
 mirrorstation {
-    
-	
-	// longan
-	mcJsonUrl = "https://cyankoton.github.io/maven/minecraft/versions/{MC_VERSION}/{MC_VERSION}.json"
-	mcJarUrl = "https://cyankoton.github.io/maven/minecraft/versions/{MC_VERSION}/{MC_VERSION}.jar"
-	mcServerUrl = "https://cyankoton.github.io/maven/minecraft/versions/{MC_VERSION}/minecraft_server.{MC_VERSION}.jar"
-	mcpUrl = "https://cyankoton.github.io/maven/minecraft/mcp/fernflower-fix-1.0.zip"
-	//assetsUrl = "https://resources.download.minecraft.net"
-	//libraryUrl = "https://libraries.minecraft.net/"
-	assetsIndexUrl = "https://cyankoton.github.io/maven/minecraft/indexes/{ASSET_INDEX}.json"
-	
-	// ------------------------------------------------------------------------------------------------------------------
-	
-	// mcJsonUrl = "https://s3.amazonaws.com/Minecraft.Download/versions/{MC_VERSION}/{MC_VERSION}.json"
-	// mcJarUrl = "https://s3.amazonaws.com/Minecraft.Download/versions/{MC_VERSION}/{MC_VERSION}.jar"
-	// mcServerUrl = "https://s3.amazonaws.com/Minecraft.Download/versions/{MC_VERSION}/minecraft_server.{MC_VERSION}.jar"
-	// mcpUrl = "https://files.minecraftforge.net/fernflower-fix-1.0.zip"
-	// assetsUrl = "https://resources.download.minecraft.net"
-	// libraryUrl = "https://libraries.minecraft.net/"
-	// assetsIndexUrl = "https://s3.amazonaws.com/Minecraft.Download/indexes/{ASSET_INDEX}.json"
+    // cyankoton
+    mcJsonUrl = "https://s3.amazonaws.com/Minecraft.Download/versions/{MC_VERSION}/{MC_VERSION}.json"
+    mcJarUrl = "https://cyankoton.github.io/maven/minecraft/versions/{MC_VERSION}/{MC_VERSION}.jar"
+    mcServerUrl = "https://cyankoton.github.io/maven/minecraft/versions/{MC_VERSION}/minecraft_server.{MC_VERSION}.jar"
+    mcpUrl = "https://files.minecraftforge.net/fernflower-fix-1.0.zip"
+    assetsUrl = "https://resources.download.minecraft.net"
+    libraryUrl = "https://libraries.minecraft.net/"
+    assetsIndexUrl = "https://s3.amazonaws.com/Minecraft.Download/indexes/{ASSET_INDEX}.json"
+    forgeMavenUrl = "https://maven.minecraftforge.net"
+    // mirror
+    mirrorMavenUrl = "https://cyankoton.github.io/maven"
+    aliyunMavenUrl = "https://repo1.maven.org/maven2"
+    mavenMavenUrl = "https://repo1.maven.org/maven2"
 
-	longanMavenUrl  = "https://cyankoton.github.io/maven"
-	aliyunMavenUrl  = "https://maven.aliyun.com/repository/public"
-	mavenMavenUrl  = "https://repo1.maven.org/maven2"
-	forgeMavenUrl = "https://maven.minecraftforge.net"
+    /*
+    // 默认设置
+    mcJsonUrl = "https://s3.amazonaws.com/Minecraft.Download/versions/{MC_VERSION}/{MC_VERSION}.json"
+    mcJarUrl = "https://s3.amazonaws.com/Minecraft.Download/versions/{MC_VERSION}/{MC_VERSION}.jar"
+    mcServerUrl = "https://s3.amazonaws.com/Minecraft.Download/versions/{MC_VERSION}/minecraft_server.{MC_VERSION}.jar"
+    mcpUrl = "https://files.minecraftforge.net/fernflower-fix-1.0.zip"
+    assetsUrl = "https://resources.download.minecraft.net"
+    libraryUrl = "https://libraries.minecraft.net/"
+    assetsIndexUrl = "https://s3.amazonaws.com/Minecraft.Download/indexes/{ASSET_INDEX}.json"
+    forgeMavenUrl = "https://maven.minecraftforge.net"
+    // mirror
+    mirrorMavenUrl = "https://cyankoton.github.io/maven"
+    aliyunMavenUrl = "https://maven.aliyun.com/repository/public"
+    mavenMavenUrl = "https://repo1.maven.org/maven2"
+    */
 }
 
 
