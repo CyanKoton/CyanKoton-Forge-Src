@@ -34,7 +34,7 @@ buildscript {
 	
 	// 依赖库
     dependencies {
-        classpath ("io.github.longan-studio:LonganForgeGradle-1.2:1.1.0.7.20210804") {
+        classpath ("io.github.cyankoton:ForgeGradle:1.2-1.0.8") {
             changing = true
         }
     }
