@@ -6,7 +6,7 @@
 基于Gradle 7.0，CyanKoton ForgeGradle 1.2，开发的CyanKotonForge，使用了Aliyun的Maven储存库对比原来的ForgeMaven
 
 国内访问速度大幅提升，Gradle7.0更加简单轻便，支持更多拓展
-**支持使用Kotlin,Scala等JVM语言开发Mod**
+**支持使用 Kotlin, Scala 等JVM语言开发Mod**
 
 **注意：**
 
